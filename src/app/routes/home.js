@@ -4,7 +4,7 @@ const Home = {
     enabled: true,
     path: "/",
     handler: [(req, res) => {
-        res.render('index', {message: 'Hello World!', data: req.params});
+        res.render('index');
         return true;
     }]
 }
